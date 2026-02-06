@@ -41,7 +41,7 @@ export const heroData = {
   name: "Muhammad Ahsan",
   headline: "Frontend Developer | React, Next.js & TypeScript",
   subheadline:
-    "Building scalable web applications and AI-powered solutions. Expert in Next.js, React, Node.js, and modern full-stack development. Delivering production-ready applications that drive business growth.",
+    "A passionate Frontend Developer crafting responsive, interactive, and AI-powered web experiences. Explore my portfolio to see how I transform ideas into modern websites that users love.",
   profileImage: "/images/profile.jpg",
   ctas: {
     primary: { text: "View My Work", href: "/projects" },
