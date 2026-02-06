@@ -43,6 +43,12 @@ import {
   SiVite,
   SiVitest,
   SiWebpack,
+  SiGooglegemini,
+  SiClaude,
+  SiSupabase,
+  SiPhp,
+  SiHtml5,
+  SiCss3
 } from "react-icons/si";
 import { FaGithub, FaLinkedin, FaGlobe, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 import { IconBaseProps, IconType } from "react-icons";
@@ -83,7 +89,7 @@ export const aboutData = {
     "1+ years building production applications",
     "Frontend Stack: Next.js, React, TypeScript, Tailwind CSS",
     "Performance optimization & AI integration",
-    "130% average performance improvement",
+    "65% average performance improvement",
   ],
 };
 
@@ -92,26 +98,20 @@ export const timelineData = [
   {
     year: "2025",
     title: "Frontend Developer | React & Next.js Specialist",
-    subtitle: "S-Tech Innovative",
+    subtitle: "Web Craf (On-site)",
     description: "Building modern, responsive web applications and leading frontend architecture decisions.",
   },
   {
     year: "2025",
-    title: "BS Computer Science",
-    subtitle: "KFUEIT, Rahim Yar Khan",
-    description: "Graduated with a strong foundation in software engineering and computer science.",
+    title: "Web Developer",
+    subtitle: "S-Tech Innovative (Remote)",
+    description: "Worked with the developers team and help them developing the SaaS product for the company.",
   },
   {
     year: "2025",
-    title: "Web Developer",
-    subtitle: "Byte-Forge Solutions (Remote)",
-    description: "Built innovative web applications for European clients.",
-  },
-  {
-    year: "2021",
     title: "High School Graduate",
-    subtitle: "APSACS, Rahim Yar Khan",
-    description: "Completed intermediate education with focus on science and mathematics.",
+    subtitle: "Khawaja Fareed College, Rahim Yar Khan",
+    description: "Completed intermediate education with focus on Computercience and Mathematics.",
   },
 ];
 
@@ -119,7 +119,7 @@ export const timelineData = [
 export interface Skill {
   name: string;
   icon: IconType;
-  level: "Expert" | "Advanced" | "Intermediate";
+  level: "Expert" | "Advanced" | "Familiar";
 }
 
 export interface SkillCategory {
@@ -131,56 +131,30 @@ export const skillsData: SkillCategory[] = [
   {
     title: "Core Frontend",
     skills: [
-      { name: "Next.js", icon: SiNextdotjs, level: "Expert" },
+      { name: "Next.js", icon: SiNextdotjs, level: "Advanced" },
       { name: "React", icon: SiReact, level: "Expert" },
       { name: "TypeScript", icon: SiTypescript, level: "Expert" },
       { name: "JavaScript", icon: SiJavascript, level: "Expert" },
+      { name: "Vite", icon: SiVite, level: "Advanced" },
+      { name: "php", icon: SiVite, level: "Familiar" },
     ],
   },
   {
     title: "Styling & UI",
     skills: [
       { name: "Tailwind CSS", icon: SiTailwindcss, level: "Expert" },
-      { name: "CSS/SASS", icon: SiSass, level: "Expert" },
-      { name: "Shadcn/ui", icon: SiReact, level: "Advanced" },
-      { name: "Material-UI", icon: SiReact, level: "Advanced" },
+      { name: "CSS/SCSS", icon: SiSass, level: "Expert" },
+      { name: "GSAP", icon: SiFramer, level: "Advanced" },  
       { name: "Framer Motion", icon: SiFramer, level: "Advanced" },
     ],
   },
-  {
-    title: "State Management",
-    skills: [
-      { name: "React Query", icon: SiReactquery, level: "Advanced" },
-      { name: "Redux Toolkit", icon: SiRedux, level: "Advanced" },
-      { name: "Zustand", icon: SiReact, level: "Intermediate" },
-      { name: "Context API", icon: SiReact, level: "Expert" },
-    ],
-  },
-  {
-    title: "Testing",
-    skills: [
-      { name: "Jest", icon: SiJest, level: "Advanced" },
-      { name: "React Testing Library", icon: SiTestinglibrary, level: "Advanced" },
-      { name: "Cypress", icon: SiCypress, level: "Intermediate" },
-      { name: "Vitest", icon: SiVitest, level: "Intermediate" },
-    ],
-  },
-  {
-    title: "Build Tools & Performance",
-    skills: [
-      { name: "Webpack", icon: SiWebpack, level: "Advanced" },
-      { name: "Vite", icon: SiVite, level: "Expert" },
-      { name: "ESLint", icon: SiEslint, level: "Expert" },
-      { name: "Prettier", icon: SiPrettier, level: "Expert" },
-    ],
-  },
-  {
+     {
     title: "API Integration",
     skills: [
       { name: "REST APIs", icon: SiPostman, level: "Expert" },
-      { name: "GraphQL", icon: SiGraphql, level: "Intermediate" },
-      { name: "tRPC", icon: SiTrpc, level: "Intermediate" },
-      { name: "Axios", icon: SiAxios, level: "Expert" },
+      { name: "GraphQL", icon: SiGraphql, level: "Familiar" },
+      { name: "Gemini API", icon: SiGooglegemini, level: "Expert" },
+      { name: "ChatGPT API", icon: SiOpenai, level: "Advanced" },
     ],
   },
   {
@@ -190,19 +164,21 @@ export const skillsData: SkillCategory[] = [
       { name: "Vercel", icon: SiVercel, level: "Expert" },
       { name: "Netlify", icon: SiNetlify, level: "Advanced" },
       { name: "Figma", icon: SiFigma, level: "Advanced" },
-      { name: "Storybook", icon: SiStorybook, level: "Intermediate" },
-    ],
+      { name: "Firebase", icon: SiFirebase, level: "Advanced" },
+      { name: "Supabase", icon: SiSupabase, level: "Advanced" },
+     ],
   },
-  {
-    title: "Modern Frontend",
+    {
+    title: "Ai Code Generation",
     skills: [
-      { name: "Server Components", icon: SiNextdotjs, level: "Advanced" },
-      { name: "React Server Actions", icon: SiReact, level: "Advanced" },
-      { name: "Progressive Web Apps", icon: SiPwa, level: "Intermediate" },
-      { name: "Web Accessibility", icon: SiReact, level: "Advanced" },
-    ],
+      { name: "ChatGPT", icon: SiOpenai, level: "Expert" },
+      { name: "Claude Code", icon: SiClaude, level: "Advanced" },
+      { name: " Google Gemini", icon: SiGooglegemini, level: "Advanced" },
+      { name: "GitHub Copilot", icon: SiGithub, level: "Advanced" },
+      
+      ],
   },
-];
+ ];
 
 export const softSkills = [
   "Problem Solving",
@@ -226,115 +202,131 @@ export interface Project {
 
 export const projectsData: Project[] = [
   {
-    title: "Kids Code & Stories",
+    title: "Arocean Nexus LLC",
     description:
-      "Production-grade EdTech platform making programming accessible to children. Features real-time progress tracking, gamified learning, and parent oversight. 125% performance improvement through optimization.",
+      "Corporate website for a technology-focused company, built with a strong emphasis on performance, responsive design, and SEO. Delivers a clean brand presence with fast load times and modern UI.",
     features: [
-      "Multi-role authentication (parent, child, admin)",
-      "Interactive coding lessons with instant feedback",
-      "Gamified rewards system with achievement badges",
-      "Real-time parent dashboard & progress analytics",
-      "Dynamic content management with CMS integration",
+      "Modern, responsive corporate UI",
+      "SEO-optimized pages and metadata",
+      "Reusable component-based architecture",
+      "Fast performance with optimized assets",
+      "Deployed with production-ready configuration",
     ],
     techStack: [
       { name: "Next.js", icon: SiNextdotjs },
       { name: "React", icon: SiReact },
-      { name: "Firebase", icon: SiFirebase },
       { name: "Tailwind CSS", icon: SiTailwindcss },
     ],
-    github: "https://github.com/mhaawais/childrens-website",
-    liveDemo: "https://www.kindercode.io/#/",
-    image: "/images/project-kids-code.png",
+    github: "https://github.com/ahn009/arocean-nexus-llc",
+    liveDemo: "https://aroceannexusllc.com/",
+    image: "/images/project-arocean.png",
   },
 
   {
-    title: "Smart Content Management System",
+    title: "Elite Books Writers",
     description:
-      "Enterprise-grade CMS for managing digital content at scale. Built with role-based access, secure authentication, and optimized for high-volume content delivery. Supports books, media assets, and dynamic blogs.",
+      "SEO-focused business website for a professional writing agency. Designed to improve search visiability, conversions, and user trust with a clean layout and optimized content structure.",
     features: [
-      "Granular role-based access control (RBAC)",
-      "Secure JWT authentication & session management",
-      "Intuitive admin dashboard with analytics",
-      "Database migrations & automated seeding",
-      "SEO-optimized content structure & metadata",
-      "Real-time content publishing workflow",
+      "SEO-optimized landing pages",
+      "Conversion-focused layout and CTAs",
+      "Responsive design for all devices",
+      "Fast-loading pages with optimized images",
+      "Scalable structure for future content expansion",
     ],
     techStack: [
-      { name: "Next.js", icon: SiNextdotjs },
-      { name: "TypeScript", icon: SiTypescript },
-      { name: "Prisma", icon: SiPrisma },
-      { name: "PostgreSQL", icon: SiPostgresql },
+      { name: "PHP", icon: SiPhp },
+      { name: "HTML", icon: SiHtml5 },
+      { name: "CSS", icon: SiCss3 },
+    ],
+    github: "https://github.com/ahn009/elite-books-center",
+    liveDemo: "https://elitebookwriters.com/",
+    image: "/images/project-elite-books.png",
+  },
+
+  {
+    title: "Portfolio Site for Team Member",
+    description:
+      "Personal portfolio website built for a team member to showcase skills, projects, and experience. Focused on clean UI, smooth navigation, and professional presentation.",
+    features: [
+      "Clean and minimal portfolio layout",
+      "Project showcase with live previews",
+      "Responsive and mobile-first design",
+      "Reusable UI components",
+      "Optimized for fast page loads",
+    ],
+    techStack: [
+      { name: "Vite", icon: SiVite },
+      { name: "React", icon: SiReact },
       { name: "Tailwind CSS", icon: SiTailwindcss },
     ],
-    github: "https://github.com/mhaawais/database",
-    liveDemo: "https://admin-marypeeofficial.vercel.app/#/",
-    image: "/images/project-cms.png",
+    github: "https://github.com/ahn009/Portfolio-Site",
+    liveDemo: "https://muhammad-awais-portfolio.vercel.app/",
+    image: "/images/project-portfolio-team.png",
   },
 
   {
-    title: "E-Commerce Furniture Marketplace",
+    title: "Cycle Harmony Hub",
     description:
-      "Multi-vendor e-commerce platform connecting furniture retailers with customers. Features Stripe Connect payments, vendor analytics, and CMS-powered product catalog. Built for scalability and transaction security.",
+      "Modern web application for a cycling-focused platform, built with a user-friendly interface and smooth navigation. Designed to deliver an engaging experience with clean visuals and structured content.",
     features: [
-      "Dynamic product catalog with advanced filtering & search",
-      "Secure multi-vendor checkout with Stripe Connect",
-      "Vendor analytics & sales dashboard",
-      "Real-time inventory management",
-      "Headless CMS integration for content management",
-      "Order tracking & customer notifications",
+      "User-friendly UI with modern design",
+      "Component-based frontend architecture",
+      "Fully responsive layout",
+      "Optimized routing and navigation",
+      "Deployed on Vercel for fast delivery",
     ],
     techStack: [
-      { name: "Next.js", icon: SiNextdotjs },
-      { name: "TypeScript", icon: SiTypescript },
-      { name: "Stripe", icon: SiStripe },
-      { name: "PostgreSQL", icon: SiPostgresql },
-      { name: "Sanity", icon: SiSanity },
+      { name: "Vite", icon: SiVite },
+      { name: "React", icon: SiReact },
+      { name: "Tailwind CSS", icon: SiTailwindcss },
     ],
-    github: "https://github.com/mhaawais/Ecommerce-Hackathon",
-    liveDemo: "https://final-hackathon-two.vercel.app/",
-    image: "/images/project-ecommerce.png",
+    github: "https://github.com/ahn009/cycle-harmony-hub",
+    liveDemo: "https://cycle-harmony-hub.vercel.app/",
+    image: "/images/project-cycle.png",
   },
 
   {
-    title: "AI-Powered Data Sweeper",
+    title: "Feast Islamabad",
     description:
-      "Data transformation tool for business intelligence. Processes CSV and Excel files with automated cleaning, statistical analysis, and interactive visualizations for data-driven decision making.",
+      "Restaurant website showcasing menu, branding, and location details. Built with a focus on visual appeal, responsiveness, and fast performance for local business visibility.",
     features: [
-      "Automated CSV & Excel file transformation",
-      "Intelligent data cleaning & normalization",
-      "Statistical analysis & correlation detection",
-      "Interactive dashboards & visualizations",
-      "Batch processing for large datasets",
-    ],
-    techStack: [
-      { name: "Python", icon: SiPython },
-      { name: "Streamlit", icon: SiStreamlit },
-      { name: "Pandas", icon: SiPandas },
-      { name: "Plotly", icon: SiPlotly },
-    ],
-    github: "https://github.com/mhaawais/Datasweeper-python",
-    image: "/images/project-datasweeper.png",
-  },
-
-  {
-    title: "Business & Agency Websites",
-    description:
-      "Custom-built websites for businesses across diverse industries. Combines stunning design with technical SEO, fast performance, and conversion optimization. Average Lighthouse score: 95+.",
-    features: [
+      "Attractive restaurant-focused UI",
       "Mobile-first responsive design",
-      "Industry-specific customizations",
-      "Technical SEO optimization",
-      "Performance optimization (Core Web Vitals)",
-      "CMS integration for easy content updates",
-      "Analytics integration & conversion tracking",
+      "Optimized images and layout",
+      "Clear content structure for users",
+      "Fast deployment and performance tuning",
     ],
     techStack: [
       { name: "Next.js", icon: SiNextdotjs },
       { name: "React", icon: SiReact },
       { name: "Tailwind CSS", icon: SiTailwindcss },
+      { name: "TypeScript", icon: SiTypescript },
     ],
-    github: "https://github.com/mhaawais",
-    image: "/images/project-agency.png",
+    github: "https://github.com/ahn009/feast-islamabad",
+    liveDemo: "https://feast-islamabad.vercel.app/",
+    image: "/images/project-feast.png",
+  },
+
+  {
+    title: "My Portfolio",
+    description:
+      "Personal frontend developer portfolio showcasing projects, skills, and experience. Built with Next.js and modern UI practices, focusing on performance, accessibility, and clean design.",
+    features: [
+      "Modern developer-focused UI",
+      "SEO-friendly structure and metadata",
+      "Reusable and scalable components",
+      "Fast performance with Vite/Next optimizations",
+      "Deployed on Vercel",
+    ],
+    techStack: [
+      { name: "Next.js", icon: SiNextdotjs },
+      { name: "React", icon: SiReact },
+      { name: "Tailwind CSS", icon: SiTailwindcss },
+      { name: "TypeScript", icon: SiTypescript },
+    ],
+    github: "https://github.com/ahn009/my-portfolio",
+    liveDemo: "https://byahsan.vercel.app/",
+    image: "/images/project-my-portfolio.png",
   },
 ];
 
@@ -351,9 +343,9 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
-    company: "S-Tech Innovative",
+    company: "Web Craf",
     role: "Frontend Developer | React & Next.js Specialist",
-    duration: "April 2025 – Present",
+    duration: "October 2025 – Present",
     location: "On-site",
     current: true,
     responsibilities: [
@@ -366,15 +358,14 @@ export const experienceData: Experience[] = [
     ],
   },
   {
-    company: "Byte-Forge Solutions",
+    company: "S-Tech Innovative",
     role: "Web Developer",
-    duration: "January 2025 – March 2025",
-    location: "Europe (Remote)",
+    duration: "August 2025 – September 2025",
+    location: "Karachi (Remote)",
     responsibilities: [
       "Architected and developed 'Kids Code & Stories' educational platform",
       "Optimized application performance achieving 125% improvement in load times",
       "Implemented real-time features and database synchronization using Supabase",
-      "Collaborated with international team across multiple time zones",
       "Deployed to production and managed ongoing maintenance and updates",
     ],
   },
@@ -390,18 +381,11 @@ export interface Education {
 }
 
 export const educationData: Education[] = [
-  {
-    degree: "BS Computer Science",
-    institution: "KFUEIT",
-    location: "Rahim Yar Khan, Pakistan",
-    year: "2025",
-    description: "Focused on software engineering, algorithms, and web technologies.",
-  },
-  {
+   {
     degree: "Intermediate / High School",
     institution: "Punjab Group of Colleges",
     location: "Rahim Yar Khan, Pakistan",
-    year: "2021",
+    year: "2025",
     description: "Completed with focus on science and mathematics.",
   },
 ];
