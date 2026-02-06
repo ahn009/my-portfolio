@@ -10,8 +10,8 @@ export function generatePersonSchema() {
     description:
       "Frontend Developer specializing in React, Next.js, TypeScript, Tailwind CSS, and AI-powered web solutions. 1+ years of production experience building modern web applications.",
     sameAs: [
-      "https://linkedin.com/in/muhammad-awais-5b37742ba",
-      "https://github.com/mhaawais",
+      "https://linkedin.com/in/muhammad-ahsan-frontend-dev",
+      "https://github.com/ahn009",
       "https://byahsan.vercel.app//",
     ],
     knowsAbout: [

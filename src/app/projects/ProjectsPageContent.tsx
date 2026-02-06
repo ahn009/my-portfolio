@@ -259,7 +259,7 @@ export default function ProjectsPageContent() {
             viewport={{ once: true }}
           >
             <a
-              href="https://github.com/mhaawais"
+              href="https://github.com/ahn009"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 border border-[#262626] rounded-full text-[#a3a3a3] hover:border-[#10b981] hover:text-[#10b981] transition-colors"

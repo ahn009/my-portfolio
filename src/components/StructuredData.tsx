@@ -96,8 +96,8 @@ export function generateOrganizationSchema() {
     logo: 'https://byahsan.vercel.app//logo.png',
     description: 'Professional portfolio of Muhammad Ahsan, FrontEnd Devloper | Next.js Expert',
     sameAs: [
-      'https://linkedin.com/in/muhammad-awais-5b37742ba',
-      'https://github.com/mhaawais',
+      'https://linkedin.com/in/muhammad-ahsan-frontend-dev',
+      'https://github.com/ahn009',
       'https://twitter.com/awais8640107',
     ],
     contactPoint: {

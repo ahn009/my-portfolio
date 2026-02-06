@@ -168,7 +168,7 @@ export default function HomePage() {
               {/* Social Links */}
               <div className="flex items-center justify-center lg:justify-start gap-4 mt-8">
                 <a
-                  href="https://github.com/mhaawais"
+                  href="https://github.com/ahn009"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-xl bg-[#111111] border border-[#262626] flex items-center justify-center text-[#737373] hover:text-[#f5f5f5] hover:border-[#10b981]/30 transition-all"
@@ -176,7 +176,7 @@ export default function HomePage() {
                   <FaGithub className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/muhammad-awais-5b37742ba"
+                  href="https://linkedin.com/in/muhammad-ahsan-frontend-dev"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-xl bg-[#111111] border border-[#262626] flex items-center justify-center text-[#737373] hover:text-[#0077b5] hover:border-[#0077b5]/30 transition-all"
