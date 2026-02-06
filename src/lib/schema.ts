@@ -6,25 +6,25 @@ export function generatePersonSchema() {
     url: "https://byahsan.vercel.app//",
     image: "https://byahsan.vercel.app//images/profile.jpg",
     email: "awais8640107@gmail.com",
-    jobTitle: "FrontEnd Devloper | Next.js Expert",
+    jobTitle: "Frontend Developer | React & Next.js Specialist",
     description:
-      "FrontEnd Devloper | Next.js Expert specializing in Next.js, React, Node.js, and AI-powered solutions with 1 years of production experience.",
+      "Frontend Developer specializing in React, Next.js, TypeScript, Tailwind CSS, and AI-powered web solutions. 1+ years of production experience building modern web applications.",
     sameAs: [
       "https://linkedin.com/in/muhammad-awais-5b37742ba",
       "https://github.com/mhaawais",
       "https://byahsan.vercel.app//",
     ],
     knowsAbout: [
-      "Next.js",
       "React",
-      "Node.js",
+      "Next.js",
       "TypeScript",
-      "PostgreSQL",
-      "MongoDB",
       "Tailwind CSS",
-      "Full Stack Development",
+      "Frontend Development",
       "Web Performance Optimization",
       "AI Integration",
+      "JavaScript",
+      "Responsive Design",
+      "UX Optimization",
     ],
     workLocation: {
       "@type": "Place",
@@ -37,10 +37,10 @@ export function generateWebsiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Muhammad Ahsan - FrontEnd Devloper | Next.js Expert",
+    name: "Muhammad Ahsan - Frontend Developer & React Specialist",
     url: "https://byahsan.vercel.app//",
     description:
-      "Portfolio and professional profile of Muhammad Ahsan, a FrontEnd Devloper | Next.js Expert specializing in Next.js, React, and modern web technologies.",
+      "Portfolio of Muhammad Ahsan, a Frontend Developer specializing in React, Next.js, TypeScript, and AI-powered web applications. Modern, performant, and user-focused solutions.",
     potentialAction: {
       "@type": "SearchAction",
       target: {

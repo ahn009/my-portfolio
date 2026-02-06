@@ -2,13 +2,13 @@ import { Metadata } from "next";
 import ProjectsPageContent from "./ProjectsPageContent";
 
 export const metadata: Metadata = {
-  title: "Projects | Muhammad Ahsan - FrontEnd Devloper | Next.js Expert",
+  title: "Projects | Muhammad Ahsan - Frontend Developer & React Specialist",
   description:
-    "Explore Muhammad Ahsan's portfolio of web development projects. Next.js, React, Node.js, and AI-powered applications. Production-ready code with proven results.",
+    "Explore Muhammad Ahsan's portfolio of frontend and web development projects. React, Next.js, TypeScript, and AI-integrated applications with proven results.",
   openGraph: {
-    title: "My Projects - Full Stack Development Portfolio",
+    title: "My Projects - Frontend Development Portfolio",
     description:
-      "E-commerce platforms, educational tools, CMS systems, and business websites. See how I build scalable web applications.",
+      "E-commerce platforms, educational tools, CMS systems, and business websites. See how I build modern, performant web applications.",
     url: "https://muhammadawais.dev/projects",
   },
 };

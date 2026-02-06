@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Web Developer in Lahore | Muhammad Ahsan',
+  title: 'Frontend Developer in Lahore | React & Next.js',
   description:
-    'Hire a professional web developer in Lahore, Pakistan. Muhammad Ahsan specializes in Next.js, React, MERN Stack development. Local freelance developer for web projects.',
+    'Hire a professional Frontend Developer in Lahore, Pakistan. Muhammad Ahsan specializes in React, Next.js, TypeScript development. Local & remote services available.',
   keywords: [
-    'web developer Lahore',
-    'developer Lahore',
-    'freelance developer Lahore',
-    'Next.js developer Lahore',
+    'frontend developer Lahore',
     'React developer Lahore',
-    'MERN Stack developer Lahore',
+    'Next.js developer Lahore',
+    'web developer Lahore',
+    'freelance developer Lahore',
     'local developer Lahore',
     'hire developer Lahore',
+    'TypeScript developer Lahore',
   ],
   openGraph: {
     type: 'website',
@@ -39,9 +39,9 @@ export default function DeveloperLahorePage() {
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Web Developer in Lahore</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Frontend Developer in Lahore</h1>
           <p className="text-xl text-gray-400">
-            Professional web development services based in Lahore, Pakistan. Muhammad Ahsan delivers high-quality solutions for businesses of all sizes.
+            Professional frontend development services based in Lahore, Pakistan. Muhammad Ahsan specializes in React, Next.js, and modern web technologies for high-performance applications.
           </p>
         </div>
 
@@ -64,9 +64,9 @@ export default function DeveloperLahorePage() {
             <h3 className="text-2xl font-bold mb-4">Quick Facts</h3>
             <div className="space-y-3 text-sm">
               <p><span className="font-bold text-blue-400">Location:</span> Lahore, Pakistan</p>
-              <p><span className="font-bold text-blue-400">Experience:</span> 1 years</p>
+              <p><span className="font-bold text-blue-400">Experience:</span> 1+ years</p>
               <p><span className="font-bold text-blue-400">Clients:</span> Local & International</p>
-              <p><span className="font-bold text-blue-400">Specialization:</span> Full Stack Development</p>
+              <p><span className="font-bold text-blue-400">Specialization:</span> Frontend Development</p>
               <p><span className="font-bold text-blue-400">Availability:</span> Full-time & Freelance</p>
             </div>
           </div>

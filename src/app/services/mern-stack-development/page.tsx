@@ -2,22 +2,21 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'MERN Stack Development Services | Full Stack Solutions',
+  title: 'Custom Web Applications | Full-Featured Solutions',
   description:
-    'Professional MERN Stack development services. Build complete web applications with MongoDB, Express, React, and Node.js. Hire MERN developer.',
+    'Professional custom web application development. Build complete solutions combining modern frontend expertise with scalable backend integration.',
   keywords: [
-    'MERN Stack developer',
-    'MERN development',
-    'Full stack development',
-    'MongoDB',
-    'Express',
-    'Node.js',
-    'React',
+    'Custom web development',
+    'Full-featured applications',
+    'React development',
+    'Next.js services',
+    'Scalable web solutions',
+    'API integration',
   ],
   openGraph: {
     type: 'website',
-    title: 'MERN Stack Development Services',
-    description: 'Professional MERN Stack development for complete web solutions.',
+    title: 'Custom Web Application Development',
+    description: 'Professional custom web application development for complete business solutions.',
     url: 'https://byahsan.vercel.app//services/mern-stack-development',
     images: [
       {
@@ -32,7 +31,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function MernStackServicePage() {
+export default function CustomWebAppServicePage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
       <div className="max-w-3xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
@@ -43,32 +42,31 @@ export default function MernStackServicePage() {
 
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4">MERN Stack Development</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Custom Web Applications</h1>
           <p className="text-xl text-gray-400">
-            Build complete, end-to-end web applications with the MERN Stack. I deliver scalable, production-ready
-            solutions.
+            Build complete, full-featured web applications combining modern frontend expertise with scalable backend integration. I deliver production-ready solutions tailored to your business needs.
           </p>
         </div>
 
         {/* Key Features */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">MERN Stack Advantages</h2>
+          <h2 className="text-2xl font-bold mb-6">Why Custom Web Applications?</h2>
           <div className="grid gap-4 md:grid-cols-2">
             <div className="p-4 rounded-lg bg-slate-800 border border-slate-700">
-              <h3 className="font-bold mb-2 text-blue-400">🔗 Full Stack Solution</h3>
-              <p className="text-gray-400">Complete control over frontend and backend with one language.</p>
+              <h3 className="font-bold mb-2 text-blue-400">🎯 Tailored Solutions</h3>
+              <p className="text-gray-400">Custom-built for your specific business requirements and workflows.</p>
             </div>
             <div className="p-4 rounded-lg bg-slate-800 border border-slate-700">
-              <h3 className="font-bold mb-2 text-blue-400">📦 Modern Stack</h3>
-              <p className="text-gray-400">Uses modern, industry-standard technologies and best practices.</p>
+              <h3 className="font-bold mb-2 text-blue-400">🚀 Modern Stack</h3>
+              <p className="text-gray-400">Built with cutting-edge technologies for optimal performance.</p>
             </div>
             <div className="p-4 rounded-lg bg-slate-800 border border-slate-700">
-              <h3 className="font-bold mb-2 text-blue-400">💾 NoSQL Database</h3>
-              <p className="text-gray-400">MongoDB for flexible, scalable data storage.</p>
+              <h3 className="font-bold mb-2 text-blue-400">📈 Scalability</h3>
+              <p className="text-gray-400">Architected to scale as your business grows.</p>
             </div>
             <div className="p-4 rounded-lg bg-slate-800 border border-slate-700">
-              <h3 className="font-bold mb-2 text-blue-400">⚡ Fast Development</h3>
-              <p className="text-gray-400">Rapid development cycles and quick time to market.</p>
+              <h3 className="font-bold mb-2 text-blue-400">⚡ High Performance</h3>
+              <p className="text-gray-400">Optimized for speed, SEO, and excellent user experience.</p>
             </div>
           </div>
         </section>
@@ -80,29 +78,36 @@ export default function MernStackServicePage() {
             <li className="flex items-start gap-3">
               <span className="text-blue-400 font-bold mt-1">✓</span>
               <div>
-                <h3 className="font-bold text-white mb-1">Custom MERN Applications</h3>
-                <p>Build tailored applications from scratch with MERN Stack architecture.</p>
+                <h3 className="font-bold text-white mb-1">Frontend Architecture</h3>
+                <p>Modern React and Next.js applications with optimal performance and UX.</p>
               </div>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-blue-400 font-bold mt-1">✓</span>
               <div>
-                <h3 className="font-bold text-white mb-1">API Development</h3>
-                <p>Create robust REST and GraphQL APIs with Express and Node.js.</p>
+                <h3 className="font-bold text-white mb-1">Backend Integration</h3>
+                <p>Seamless API integration and backend connectivity for full-featured applications.</p>
               </div>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-blue-400 font-bold mt-1">✓</span>
               <div>
-                <h3 className="font-bold text-white mb-1">Database Design & Management</h3>
-                <p>MongoDB database design, optimization, and management.</p>
+                <h3 className="font-bold text-white mb-1">Database Design</h3>
+                <p>Efficient database architecture and optimization for data-intensive applications.</p>
               </div>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-blue-400 font-bold mt-1">✓</span>
               <div>
-                <h3 className="font-bold text-white mb-1">Real-time Applications</h3>
-                <p>Build real-time applications with WebSocket and Socket.io.</p>
+                <h3 className="font-bold text-white mb-1">Real-time Features</h3>
+                <p>Real-time data synchronization and interactive features for modern applications.</p>
+              </div>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-blue-400 font-bold mt-1">✓</span>
+              <div>
+                <h3 className="font-bold text-white mb-1">AI Integration</h3>
+                <p>Incorporate AI-powered features for intelligent, adaptive applications.</p>
               </div>
             </li>
           </ul>
@@ -113,14 +118,14 @@ export default function MernStackServicePage() {
           <h2 className="text-2xl font-bold mb-6">Technology Stack</h2>
           <div className="flex flex-wrap gap-2">
             {[
-              'MongoDB',
-              'Express.js',
               'React',
-              'Node.js',
+              'Next.js',
               'TypeScript',
-              'Mongoose',
-              'JWT',
-              'Redux',
+              'Tailwind CSS',
+              'Node.js',
+              'PostgreSQL',
+              'MongoDB',
+              'API Integration',
             ].map((tech) => (
               <span key={tech} className="px-4 py-2 rounded-full bg-slate-800 border border-slate-700">
                 {tech}
@@ -131,8 +136,8 @@ export default function MernStackServicePage() {
 
         {/* CTA */}
         <div className="p-8 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-center">
-          <h2 className="text-2xl font-bold mb-4">Need a full-stack solution?</h2>
-          <p className="text-gray-100 mb-6">Let's build a scalable MERN Stack application for your business.</p>
+          <h2 className="text-2xl font-bold mb-4">Ready for your custom web application?</h2>
+          <p className="text-gray-100 mb-6">Let's build a scalable, modern web solution tailored to your business goals.</p>
           <Link
             href="/contact"
             className="inline-block px-8 py-3 bg-white text-blue-600 font-bold rounded-lg hover:bg-gray-100 transition-colors"

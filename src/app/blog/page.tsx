@@ -3,21 +3,22 @@ import Link from 'next/link';
 import { StructuredData, generateArticleSchema } from '@/components/StructuredData';
 
 export const metadata: Metadata = {
-  title: 'Blog - Muhammad Ahsan | FrontEnd Devloper | Next.js Expert',
+  title: 'Blog - Muhammad Ahsan | Frontend Developer & React Specialist',
   description:
-    'Read articles and tutorials about Next.js, React, MERN Stack, and AI integration. Expert insights on web development from Muhammad Ahsan.',
+    'Read articles and tutorials about React, Next.js, TypeScript, frontend optimization, and modern web development. Expert insights from Muhammad Ahsan.',
   keywords: [
     'Next.js tutorials',
-    'React blog',
-    'MERN Stack',
+    'React tutorials',
+    'Frontend development',
     'Web development',
     'AI integration',
     'JavaScript tutorials',
+    'TypeScript guides',
   ],
   openGraph: {
     type: 'website',
-    title: 'Blog - Muhammad Ahsan | FrontEnd Devloper | Next.js Expert',
-    description: 'Articles about Next.js, React, MERN Stack, and modern web development.',
+    title: 'Blog - Muhammad Ahsan | Frontend Developer',
+    description: 'Articles about React, Next.js, TypeScript, and modern web development.',
     url: 'https://byahsan.vercel.app//blog',
     siteName: 'Muhammad Ahsan',
     images: [
@@ -31,8 +32,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Blog - Muhammad Ahsan | FrontEnd Devloper | Next.js Expert',
-    description: 'Articles about Next.js, React, and modern web development.',
+    title: 'Blog - Muhammad Ahsan | Frontend Developer',
+    description: 'Articles about React, Next.js, and modern web development.',
     images: ['https://byahsan.vercel.app//og-image.png'],
   },
   alternates: {
@@ -114,7 +115,7 @@ export default function BlogPage() {
           <div className="mb-12">
             <h1 className="text-4xl sm:text-5xl font-bold mb-4">Blog</h1>
             <p className="text-xl text-gray-400">
-              Articles and insights about Next.js, React, MERN Stack, and modern web development.
+              Articles and insights about React, Next.js, TypeScript, frontend optimization, and modern web development.
             </p>
           </div>
 

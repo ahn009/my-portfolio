@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Web Developer in Pakistan | Muhammad Ahsan',
+  title: 'Frontend Developer in Pakistan | React & Next.js Expert',
   description:
-    'Looking for a skilled web developer in Pakistan? Muhammad Ahsan specializes in Next.js, React, MERN Stack development. Hire Pakistani FrontEnd Devloper | Next.js Expert online.',
+    'Hire a skilled Frontend Developer in Pakistan. Muhammad Ahsan specializes in React, Next.js, TypeScript, and modern web development. Remote work available.',
   keywords: [
-    'web developer Pakistan',
-    'developer Pakistan',
-    'freelance developer Pakistan',
-    'Next.js developer Pakistan',
+    'frontend developer Pakistan',
     'React developer Pakistan',
-    'MERN Stack developer Pakistan',
-    'FrontEnd Devloper | Next.js Expert Pakistan',
-    'hire developer Pakistan',
+    'Next.js developer Pakistan',
+    'web developer Pakistan',
+    'freelance developer Pakistan',
+    'TypeScript developer Pakistan',
+    'hire frontend developer Pakistan',
+    'web developer Karachi',
   ],
   openGraph: {
     type: 'website',
@@ -39,9 +39,9 @@ export default function DeveloperPakistanPage() {
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Web Developer in Pakistan</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Frontend Developer in Pakistan</h1>
           <p className="text-xl text-gray-400">
-            Professional web development services from Muhammad Ahsan, a full-stack developer based in Pakistan. Specializing in Next.js, React, and MERN Stack development.
+            Professional frontend development services from Muhammad Ahsan, a React & Next.js specialist based in Pakistan. Specializing in modern web development, performance optimization, and AI-powered solutions.
           </p>
         </div>
 
@@ -84,13 +84,13 @@ export default function DeveloperPakistanPage() {
           <div className="p-8 rounded-lg bg-slate-800 border border-slate-700 h-fit">
             <h3 className="text-2xl font-bold mb-4">About Muhammad Ahsan</h3>
             <p className="text-gray-400 mb-4">
-              Based in Pakistan, I am a full-stack developer with 1 years of professional experience in web development.
+              Based in Karachi, Pakistan, I am a Frontend Developer & React Specialist with 1+ years of professional experience building modern web applications.
             </p>
             <div className="space-y-2 text-sm">
               <p><span className="font-bold">Location:</span> Karachi, Pakistan</p>
-              <p><span className="font-bold">Specialization:</span> Next.js, React, MERN Stack</p>
-              <p><span className="font-bold">Experience:</span> 1 years</p>
-              <p><span className="font-bold">Languages:</span> JavaScript, TypeScript, Python</p>
+              <p><span className="font-bold">Specialization:</span> React, Next.js, TypeScript</p>
+              <p><span className="font-bold">Experience:</span> 1+ years</p>
+              <p><span className="font-bold">Focus:</span> Frontend Performance & UX</p>
             </div>
           </div>
         </section>

@@ -54,13 +54,13 @@ export const heroData = {
 export const aboutData = {
   title: "About Me",
   paragraphs: [
-    "I'm a FrontEnd Devloper | Next.js Expert with 1 years of experience building production-grade web applications for startups and enterprises. I specialize in Next.js, React, and Node.js, delivering scalable solutions that solve real business problems.",
-    "I focus on clean architecture, performance optimization, and AI integration. My projects have improved application performance by up to 130%, reduced deployment times, and scaled to handle thousands of concurrent users. I combine deep technical expertise with a user-first approach.",
-    "I'm passionate about keeping current with modern web technologies, contributing to open-source communities, and mentoring other developers. I thrive in collaborative environments and believe in shipping quality code that makes an impact.",
+    "I'm a Frontend Developer & React Specialist with 1+ years of experience building production-grade web applications for startups and enterprises. I specialize in Next.js, React, TypeScript, and Tailwind CSS, creating pixel-perfect, performant interfaces that users love.",
+    "I focus on modern frontend architecture, performance optimization, UX/UI best practices, and AI integration. My projects have improved application performance by up to 130%, enhanced user engagement through responsive design, and scaled to handle thousands of concurrent users. I combine deep technical expertise with a user-first design approach.",
+    "I'm passionate about keeping current with modern web technologies, contributing to open-source communities, and mentoring other developers. I thrive in collaborative environments and believe in shipping quality, accessible code that makes a real impact on user experience.",
   ],
   highlights: [
-    "1 years building production applications",
-    "Full Stack: Next.js, React, Node.js, PostgreSQL",
+    "1+ years building production applications",
+    "Frontend Stack: Next.js, React, TypeScript, Tailwind CSS",
     "Performance optimization & AI integration",
     "130% average performance improvement",
   ],
@@ -70,9 +70,9 @@ export const aboutData = {
 export const timelineData = [
   {
     year: "2025",
-    title: "FrontEnd Devloper | Next.js Expert",
+    title: "Frontend Developer | React & Next.js Specialist",
     subtitle: "S-Tech Innovative",
-    description: "Leading full-stack development projects and building scalable applications.",
+    description: "Building modern, responsive web applications and leading frontend architecture decisions.",
   },
   {
     year: "2025",
@@ -306,17 +306,17 @@ export interface Experience {
 export const experienceData: Experience[] = [
   {
     company: "S-Tech Innovative",
-    role: "FrontEnd Devloper | Next.js Expert",
+    role: "Frontend Developer | React & Next.js Specialist",
     duration: "April 2025 – Present",
     location: "On-site",
     current: true,
     responsibilities: [
-      "Lead full-stack development projects using Next.js and Node.js with TypeScript",
-      "Develop and maintain enterprise CMS platform serving 10+ clients",
-      "Design and optimize custom databases for production applications",
-      "Implement API integrations improving data retrieval efficiency by 30%",
-      "Collaborate with design team to create responsive, accessible user interfaces",
-      "Conduct code reviews and mentor junior developers on best practices",
+      "Develop and maintain modern frontend applications using Next.js and React with TypeScript",
+      "Design and implement responsive, accessible user interfaces with Tailwind CSS",
+      "Optimize application performance and Core Web Vitals metrics",
+      "Integrate third-party APIs and build reusable component libraries",
+      "Implement AI-powered features and real-time functionality",
+      "Conduct code reviews and mentor junior developers on frontend best practices",
     ],
   },
   {
@@ -368,12 +368,12 @@ export const contactData = {
   social: [
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/muhammad-awais-5b37742ba",
+      url: "https://www.linkedin.com/in/m-ahsan-2653b73a2/",
       icon: FaLinkedin,
     },
     {
       name: "GitHub",
-      url: "https://github.com/mhaawais",
+      url: "https://github.com/ahn009",
       icon: FaGithub,
     },
     {

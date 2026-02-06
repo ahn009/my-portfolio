@@ -2,18 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Freelance Web Developer in Pakistan | Muhammad Ahsan',
+  title: 'Freelance Frontend Developer in Pakistan | React & Next.js',
   description:
-    'Hire a freelance web developer from Pakistan. Muhammad Ahsan offers flexible freelance services for Next.js, React, and MERN Stack projects. Remote work available.',
+    'Hire a freelance Frontend Developer from Pakistan. Muhammad Ahsan offers flexible freelance services for React, Next.js, and modern web development projects. Remote work available.',
   keywords: [
-    'freelance developer Pakistan',
-    'freelance web developer',
+    'freelance frontend developer',
+    'freelance React developer',
+    'freelance Next.js developer',
     'freelancer Pakistan',
     'remote developer Pakistan',
     'contract developer',
-    'freelance Next.js developer',
-    'freelance React developer',
-    'freelance MERN developer',
+    'freelance TypeScript developer',
+    'hire freelance developer Pakistan',
   ],
   openGraph: {
     type: 'website',
@@ -39,9 +39,9 @@ export default function FreelancerPakistanPage() {
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Freelance Web Developer in Pakistan</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Freelance Frontend Developer in Pakistan</h1>
           <p className="text-xl text-gray-400">
-            Flexible freelance web development services from Muhammad Ahsan. Available for short-term projects, long-term contracts, and everything in between.
+            Flexible freelance frontend development services from Muhammad Ahsan. Available for short-term projects, long-term contracts, and everything in between. Specialized in React, Next.js, and modern web development.
           </p>
         </div>
 

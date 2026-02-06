@@ -2,29 +2,31 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Web Development Services - Muhammad Ahsan',
+  title: 'Frontend Web Development Services | React & Next.js',
   description:
-    'Professional web development services including Next.js, React, MERN Stack, and AI integration. Get high-quality web solutions for your business.',
+    'Professional frontend development services including React, Next.js, TypeScript, Tailwind CSS, and AI integration. Build modern, performant web applications.',
   keywords: [
-    'Web development services',
-    'Next.js development',
+    'Frontend development',
     'React development',
-    'MERN Stack services',
+    'Next.js development',
+    'TypeScript services',
+    'Tailwind CSS',
     'AI integration',
-    'Freelance developer',
+    'Web development',
+    'UI development',
   ],
   openGraph: {
     type: 'website',
-    title: 'Web Development Services',
+    title: 'Frontend Web Development Services',
     description:
-      'Professional web development services including Next.js, React, MERN Stack, and AI integration.',
+      'Professional frontend development services including React, Next.js, TypeScript, and AI integration.',
     url: 'https://byahsan.vercel.app//services',
     images: [
       {
         url: 'https://byahsan.vercel.app//og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Web Development Services',
+        alt: 'Frontend Web Development Services',
       },
     ],
   },
@@ -37,26 +39,26 @@ const services = [
   {
     title: 'Next.js Development',
     slug: 'nextjs-development',
-    description: 'Build fast, scalable, and SEO-friendly applications with Next.js',
+    description: 'Build fast, scalable, SEO-optimized web applications with Next.js and modern React patterns',
     icon: '⚡',
   },
   {
     title: 'React Development',
     slug: 'react-development',
-    description: 'Create dynamic and interactive user interfaces with React',
+    description: 'Create dynamic, interactive, and performant user interfaces with React and component best practices',
     icon: '⚛️',
   },
   {
-    title: 'MERN Stack Development',
-    slug: 'mern-stack-development',
-    description: 'Full-stack development using MongoDB, Express, React, and Node.js',
-    icon: '🔗',
+    title: 'Frontend Optimization',
+    slug: 'ai-integration-development',
+    description: 'Optimize Web Core Vitals, performance, and user experience with AI-driven insights and modern techniques',
+    icon: '🚀',
   },
   {
-    title: 'AI Integration',
-    slug: 'ai-integration-development',
-    description: 'Integrate AI and machine learning into your web applications',
-    icon: '🤖',
+    title: 'Custom Web Solutions',
+    slug: 'mern-stack-development',
+    description: 'Full-featured web applications combining frontend expertise with modern backend integration',
+    icon: '💻',
   },
 ];
 
@@ -66,10 +68,10 @@ export default function ServicesPage() {
       <div className="max-w-5xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-16">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Web Development Services</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4">Frontend Development Services</h1>
           <p className="text-xl text-gray-400">
-            Professional web development solutions tailored to your business needs. From concept to deployment, I
-            deliver high-quality applications.
+            Professional frontend solutions tailored to your business needs. From concept to deployment, I deliver
+            high-quality, performant, and user-focused web applications.
           </p>
         </div>
 
@@ -97,7 +99,7 @@ export default function ServicesPage() {
         <div className="p-8 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 text-center">
           <h2 className="text-2xl font-bold mb-4">Ready to get started?</h2>
           <p className="text-gray-100 mb-6">
-            Let's discuss your project and how I can help bring your ideas to life.
+            Let's discuss your project and how I can help bring your ideas to life with modern frontend solutions.
           </p>
           <Link
             href="/contact"
