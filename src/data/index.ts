@@ -353,7 +353,7 @@ export const educationData: Education[] = [
   },
   {
     degree: "Intermediate / High School",
-    institution: "APSACS",
+    institution: "Punjab Group of Colleges",
     location: "Rahim Yar Khan, Pakistan",
     year: "2021",
     description: "Completed with focus on science and mathematics.",
@@ -368,7 +368,7 @@ export const contactData = {
   social: [
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/m-ahsan-2653b73a2/",
+      url: "https://www.linkedin.com/in/muhammad-ahsan-frontend-dev/",
       icon: FaLinkedin,
     },
     {
