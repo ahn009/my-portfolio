@@ -5,7 +5,7 @@ export function generatePersonSchema() {
     name: "Muhammad Ahsan",
     url: "https://byahsan.vercel.app//",
     image: "https://byahsan.vercel.app//images/profile.jpg",
-    email: "awais8640107@gmail.com",
+    email: "ahsan747708@gmail.com",
     jobTitle: "Frontend Developer | React & Next.js Specialist",
     description:
       "Frontend Developer specializing in React, Next.js, TypeScript, Tailwind CSS, and AI-powered web solutions. 1+ years of production experience building modern web applications.",

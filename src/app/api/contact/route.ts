@@ -43,7 +43,7 @@ export async function POST(request: NextRequest) {
 
     // Example: Integration with email service would go here
     // await sendEmail({
-    //   to: "awais8640107@gmail.com",
+    //   to: "ahsan747708@gmail.com",
     //   subject: `New Contact Form Submission from ${name}`,
     //   text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
     // });

@@ -103,7 +103,7 @@ export function generateOrganizationSchema() {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Support',
-      email: 'awais8640107@gmail.com',
+      email: 'ahsan747708@gmail.com',
     },
   };
 }

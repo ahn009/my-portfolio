@@ -22,10 +22,31 @@ import {
   SiPandas,
   SiPlotly,
   SiPrisma,
-  SiStreamlit
+  SiStreamlit,
+  SiAxios,
+  SiCypress,
+  SiEslint,
+  SiFramer,
+  SiGithub,
+  SiGraphql,
+  SiJest,
+  SiNetlify,
+  SiPostman,
+  SiPrettier,
+  SiPwa,
+  SiReactquery,
+  SiRedux,
+  SiSass,
+  SiStorybook,
+  SiTestinglibrary,
+  SiTrpc,
+  SiVite,
+  SiVitest,
+  SiWebpack,
 } from "react-icons/si";
 import { FaGithub, FaLinkedin, FaGlobe, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
-import { IconType } from "react-icons";
+import { IconBaseProps, IconType } from "react-icons";
+import { ReactNode } from "react";
 
 // Navigation Links for Multi-Page Site
 export const navLinks = [
@@ -108,52 +129,77 @@ export interface SkillCategory {
 
 export const skillsData: SkillCategory[] = [
   {
-    title: "Frontend",
+    title: "Core Frontend",
     skills: [
       { name: "Next.js", icon: SiNextdotjs, level: "Expert" },
       { name: "React", icon: SiReact, level: "Expert" },
-      { name: "TypeScript", icon: SiTypescript, level: "Advanced" },
+      { name: "TypeScript", icon: SiTypescript, level: "Expert" },
       { name: "JavaScript", icon: SiJavascript, level: "Expert" },
-      { name: "Tailwind CSS", icon: SiTailwindcss, level: "Expert" },
-      { name: "Bootstrap", icon: SiBootstrap, level: "Advanced" },
     ],
   },
   {
-    title: "Backend",
+    title: "Styling & UI",
     skills: [
-      { name: "Node.js", icon: SiNodedotjs, level: "Expert" },
-      { name: "Express.js", icon: SiExpress, level: "Advanced" },
-      { name: "PostgreSQL", icon: SiPostgresql, level: "Advanced" },
-      { name: "MongoDB", icon: SiMongodb, level: "Expert" },
+      { name: "Tailwind CSS", icon: SiTailwindcss, level: "Expert" },
+      { name: "CSS/SASS", icon: SiSass, level: "Expert" },
+      { name: "Shadcn/ui", icon: SiReact, level: "Advanced" },
+      { name: "Material-UI", icon: SiReact, level: "Advanced" },
+      { name: "Framer Motion", icon: SiFramer, level: "Advanced" },
     ],
   },
   {
-  title: "Payments & Auth",
-  skills: [
-    { name: "Stripe", icon: SiStripe, level: "Advanced" },
-    { name: "Stripe Connect", icon: SiStripe, level: "Intermediate" },
-    { name: "Authentication & Authorization", icon: SiAuth0, level: "Advanced" },
-  ],
-},
-{
+    title: "State Management",
+    skills: [
+      { name: "React Query", icon: SiReactquery, level: "Advanced" },
+      { name: "Redux Toolkit", icon: SiRedux, level: "Advanced" },
+      { name: "Zustand", icon: SiReact, level: "Intermediate" },
+      { name: "Context API", icon: SiReact, level: "Expert" },
+    ],
+  },
+  {
+    title: "Testing",
+    skills: [
+      { name: "Jest", icon: SiJest, level: "Advanced" },
+      { name: "React Testing Library", icon: SiTestinglibrary, level: "Advanced" },
+      { name: "Cypress", icon: SiCypress, level: "Intermediate" },
+      { name: "Vitest", icon: SiVitest, level: "Intermediate" },
+    ],
+  },
+  {
+    title: "Build Tools & Performance",
+    skills: [
+      { name: "Webpack", icon: SiWebpack, level: "Advanced" },
+      { name: "Vite", icon: SiVite, level: "Expert" },
+      { name: "ESLint", icon: SiEslint, level: "Expert" },
+      { name: "Prettier", icon: SiPrettier, level: "Expert" },
+    ],
+  },
+  {
+    title: "API Integration",
+    skills: [
+      { name: "REST APIs", icon: SiPostman, level: "Expert" },
+      { name: "GraphQL", icon: SiGraphql, level: "Intermediate" },
+      { name: "tRPC", icon: SiTrpc, level: "Intermediate" },
+      { name: "Axios", icon: SiAxios, level: "Expert" },
+    ],
+  },
+  {
     title: "Tools & Platforms",
     skills: [
-      { name: "Git", icon: SiGit, level: "Expert" },
+      { name: "Git & GitHub", icon: SiGithub, level: "Expert" },
       { name: "Vercel", icon: SiVercel, level: "Expert" },
-      { name: "Firebase", icon: SiFirebase, level: "Advanced" },
-      { name: "Docker", icon: SiDocker, level: "Intermediate" },
+      { name: "Netlify", icon: SiNetlify, level: "Advanced" },
       { name: "Figma", icon: SiFigma, level: "Advanced" },
+      { name: "Storybook", icon: SiStorybook, level: "Intermediate" },
     ],
   },
   {
-    title: "AI & ML",
+    title: "Modern Frontend",
     skills: [
-      { name: "Python", icon: SiPython, level: "Advanced" },
-      { name: "OpenAI SDK", icon: SiOpenai, level: "Advanced" },
-      { name: "AI", icon: SiPython, level: "Advanced" },
-      { name: "ML", icon: SiPython, level: "Advanced" },
-      { name: "Agentic AI", icon: SiOpenai, level: "Advanced" },
-      { name: "Gen AI", icon: SiOpenai, level: "Advanced" },
+      { name: "Server Components", icon: SiNextdotjs, level: "Advanced" },
+      { name: "React Server Actions", icon: SiReact, level: "Advanced" },
+      { name: "Progressive Web Apps", icon: SiPwa, level: "Intermediate" },
+      { name: "Web Accessibility", icon: SiReact, level: "Advanced" },
     ],
   },
 ];
@@ -362,9 +408,9 @@ export const educationData: Education[] = [
 
 // Contact Data
 export const contactData = {
-  email: "awais8640107@gmail.com",
-  phone: "+92 317 5597654",
-  location: "Karachi, Pakistan",
+  email: "ahsan747708@gmail.com",
+  phone: "+92 304 1240791",
+  location: "Rahim Yar Khan, Pakistan",
   social: [
     {
       name: "LinkedIn",
@@ -383,5 +429,4 @@ export const contactData = {
     },
   ],
 };
-
 export { FaGithub, FaLinkedin, FaGlobe, FaEnvelope, FaPhone, FaMapMarkerAlt };
