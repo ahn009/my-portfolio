@@ -18,10 +18,10 @@ export const metadata: Metadata = {
     title: 'Web Development Services',
     description:
       'Professional web development services including Next.js, React, MERN Stack, and AI integration.',
-    url: 'https://muhammad-awais-portfolio.vercel.app/services',
+    url: 'https://byahsan.vercel.app//services',
     images: [
       {
-        url: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+        url: 'https://byahsan.vercel.app//og-image.png',
         width: 1200,
         height: 630,
         alt: 'Web Development Services',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: 'https://muhammad-awais-portfolio.vercel.app/services',
+    canonical: 'https://byahsan.vercel.app//services',
   },
 };
 

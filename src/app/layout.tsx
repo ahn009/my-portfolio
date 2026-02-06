@@ -21,41 +21,47 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://muhammad-awais-portfolio.vercel.app"),
-  title: "Muhammad Ahsan - Full Stack Developer & Next.js Expert | MERN Stack & AI",
+  metadataBase: new URL("https://byahsan.vercel.app/"),
+  title: "Muhammad Ahsan – Expert Frontend Developer | Modern Web Solutions",
   description:
-    "Professional portfolio of Muhammad Ahsan, Full Stack Developer specializing in Next.js, React, MERN Stack, and AI integration. Hire for web development projects. 3+ years of production experience.",
+    "Showcasing Muhammad Ahsan’s portfolio: cutting-edge Frontend Development with Next.js, React, Tailwind CSS & AI-integrated web solutions. Explore projects and skills.",
   verification: {
     google: "qaffrCRgQTIweoljI3L7It6hQEI7tjESpBOZ71gx2hQ",
   },
   keywords: [
-    "Full Stack Developer",
-    "Next.js Developer",
-    "React Developer",
-    "MERN Stack Developer",
-    "AI Developer",
-    "Web Development",
-    "JavaScript",
-    "TypeScript",
-    "Node.js Developer",
-    "Hire Next.js Developer",
-    "Web Developer Pakistan",
-    "Freelance Web Developer",
-    "Full Stack Development Services",
-  ],
+  "Frontend Developer",
+  "Next.js Developer",
+  "React Developer",
+  "JavaScript Developer",
+  "TypeScript Developer",
+  "Tailwind CSS Developer",
+  "AI Web Developer",
+  "Web Developer Pakistan",
+  "Hire Frontend Developer",
+  "Hire Next.js Developer",
+  "Responsive Web Development",
+  "Modern Web Developer",
+  "React & Next.js Expert",
+  "SEO Friendly Web Developer",
+  "Freelance Web Developer",
+  "Creative Web Solutions",
+  "Interactive UI Developer",
+  "MERN Stack Developer",
+  "Full Stack Development Services",
+],
   authors: [{ name: "Muhammad Ahsan" }],
   creator: "Muhammad Ahsan",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://muhammad-awais-portfolio.vercel.app",
-    siteName: "Muhammad Ahsan - Full Stack Developer",
-    title: "Muhammad Ahsan - Full Stack Developer & Next.js Expert | MERN Stack & AI",
+    url: "https://byahsan.vercel.app/",
+    siteName: "Muhammad Ahsan - FrontEnd Devloper | Next.js Expert",
+    title: "Muhammad Ahsan – Expert Frontend Developer | Modern Web Solutions",
     description:
       "Professional portfolio showcasing expertise in Next.js, React, MERN Stack, and AI integration. Available for freelance and full-time opportunities.",
     images: [
       {
-        url: "https://muhammad-awais-portfolio.vercel.app/og-image.png",
+        url: "https://byahsan.vercel.app//og-image.png",
         width: 1200,
         height: 630,
         alt: "Muhammad Ahsan - Frontend Developer | React, Next.js & TypeScript",
@@ -67,10 +73,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@awais8640107",
     creator: "@awais8640107",
-    title: "Muhammad Ahsan - Full Stack Developer",
+    title: "Muhammad Ahsan - FrontEnd Devloper | Next.js Expert",
     description:
-      "Full Stack Developer specializing in Next.js, React, Node.js, and AI solutions. 3+ years of production experience. Available for projects.",
-    images: ["https://muhammad-awais-portfolio.vercel.app/og-image.png"],
+      "FrontEnd Devloper | Next.js Expert specializing in Next.js, React, Node.js, and AI solutions. 1 years of production experience. Available for projects.",
+    images: ["https://byahsan.vercel.app//og-image.png"],
   },
   robots: {
     index: true,
@@ -89,7 +95,7 @@ export const metadata: Metadata = {
     apple: "/favicon.png",
   },
   alternates: {
-    canonical: "https://muhammad-awais-portfolio.vercel.app",
+    canonical: "https://byahsan.vercel.app/",
   },
 };
 

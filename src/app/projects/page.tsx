@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import ProjectsPageContent from "./ProjectsPageContent";
 
 export const metadata: Metadata = {
-  title: "Projects | Muhammad Ahsan - Full Stack Developer",
+  title: "Projects | Muhammad Ahsan - FrontEnd Devloper | Next.js Expert",
   description:
     "Explore Muhammad Ahsan's portfolio of web development projects. Next.js, React, Node.js, and AI-powered applications. Production-ready code with proven results.",
   openGraph: {

@@ -78,7 +78,7 @@ export default function ExperiencePageContent() {
               Work Experience
             </h1>
             <p className="text-[#737373] max-w-2xl mx-auto text-lg mb-6">
-              My professional journey as a Full Stack Developer, building scalable applications and delivering impactful solutions.
+              My professional journey as a FrontEnd Devloper | Next.js Expert, building scalable applications and delivering impactful solutions.
             </p>
             <div className="w-24 h-1 bg-gradient-green mx-auto rounded-full" />
           </div>
@@ -249,7 +249,7 @@ export default function ExperiencePageContent() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { number: "3+", label: "Years Experience" },
+              { number: "1", label: "Years Experience" },
               { number: "2", label: "Companies Worked" },
               { number: "50+", label: "Projects Delivered" },
               { number: "130%", label: "Performance Improved" },

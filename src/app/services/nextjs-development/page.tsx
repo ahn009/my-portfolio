@@ -17,17 +17,17 @@ export const metadata: Metadata = {
     type: 'website',
     title: 'Next.js Development Services',
     description: 'Professional Next.js development for high-performance web applications.',
-    url: 'https://muhammad-awais-portfolio.vercel.app/services/nextjs-development',
+    url: 'https://byahsan.vercel.app//services/nextjs-development',
     images: [
       {
-        url: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+        url: 'https://byahsan.vercel.app//og-image.png',
         width: 1200,
         height: 630,
       },
     ],
   },
   alternates: {
-    canonical: 'https://muhammad-awais-portfolio.vercel.app/services/nextjs-development',
+    canonical: 'https://byahsan.vercel.app//services/nextjs-development',
   },
 };
 

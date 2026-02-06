@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { StructuredData, generateArticleSchema } from '@/components/StructuredData';
 
 export const metadata: Metadata = {
-  title: 'Blog - Muhammad Ahsan | Full Stack Developer',
+  title: 'Blog - Muhammad Ahsan | FrontEnd Devloper | Next.js Expert',
   description:
     'Read articles and tutorials about Next.js, React, MERN Stack, and AI integration. Expert insights on web development from Muhammad Ahsan.',
   keywords: [
@@ -16,13 +16,13 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: 'website',
-    title: 'Blog - Muhammad Ahsan | Full Stack Developer',
+    title: 'Blog - Muhammad Ahsan | FrontEnd Devloper | Next.js Expert',
     description: 'Articles about Next.js, React, MERN Stack, and modern web development.',
-    url: 'https://muhammad-awais-portfolio.vercel.app/blog',
+    url: 'https://byahsan.vercel.app//blog',
     siteName: 'Muhammad Ahsan',
     images: [
       {
-        url: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+        url: 'https://byahsan.vercel.app//og-image.png',
         width: 1200,
         height: 630,
         alt: 'Muhammad Ahsan Blog',
@@ -31,12 +31,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Blog - Muhammad Ahsan | Full Stack Developer',
+    title: 'Blog - Muhammad Ahsan | FrontEnd Devloper | Next.js Expert',
     description: 'Articles about Next.js, React, and modern web development.',
-    images: ['https://muhammad-awais-portfolio.vercel.app/og-image.png'],
+    images: ['https://byahsan.vercel.app//og-image.png'],
   },
   alternates: {
-    canonical: 'https://muhammad-awais-portfolio.vercel.app/blog',
+    canonical: 'https://byahsan.vercel.app//blog',
   },
 };
 
@@ -50,7 +50,7 @@ const blogs = [
     date: '2024-01-15',
     readTime: '8 min read',
     category: 'Web Development',
-    image: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+    image: 'https://byahsan.vercel.app//og-image.png',
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ const blogs = [
     date: '2024-01-10',
     readTime: '10 min read',
     category: 'Full Stack Development',
-    image: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+    image: 'https://byahsan.vercel.app//og-image.png',
   },
   {
     id: 3,
@@ -72,7 +72,7 @@ const blogs = [
     date: '2024-01-05',
     readTime: '12 min read',
     category: 'AI & Machine Learning',
-    image: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+    image: 'https://byahsan.vercel.app//og-image.png',
   },
 ];
 
@@ -86,11 +86,11 @@ export default function BlogPage() {
           '@type': 'Blog',
           name: 'Muhammad Ahsan Blog',
           description: 'Articles about Next.js, React, MERN Stack, and AI integration.',
-          url: 'https://muhammad-awais-portfolio.vercel.app/blog',
+          url: 'https://byahsan.vercel.app//blog',
           author: {
             '@type': 'Person',
             name: 'Muhammad Ahsan',
-            url: 'https://muhammad-awais-portfolio.vercel.app',
+            url: 'https://byahsan.vercel.app/',
           },
           mainEntity: blogs.map((blog) => ({
             '@context': 'https://schema.org',
@@ -103,7 +103,7 @@ export default function BlogPage() {
               '@type': 'Person',
               name: 'Muhammad Ahsan',
             },
-            url: `https://muhammad-awais-portfolio.vercel.app/blog/${blog.slug}`,
+            url: `https://byahsan.vercel.app//blog/${blog.slug}`,
           })),
         }}
       />

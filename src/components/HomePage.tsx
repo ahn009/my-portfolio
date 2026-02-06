@@ -70,7 +70,7 @@ export default function HomePage() {
   }, [mounted]);
 
   const stats = [
-    { number: "3+", label: "Years Experience" },
+    { number: "1", label: "Years Experience" },
     { number: "70+", label: "Projects Completed" },
     { number: "50+", label: "Happy Clients" },
     { number: "130%", label: "Performance Boost" },
@@ -202,7 +202,7 @@ export default function HomePage() {
                 <div className="relative w-full aspect-square rounded-full overflow-hidden border-4 border-[#10b981]/30 shadow-2xl shadow-[#10b981]/20">
                   <Image
                     src="/images/profile.jpg"
-                    alt="Muhammad Ahsan - Full Stack Developer"
+                    alt="Muhammad Ahsan - FrontEnd Devloper | Next.js Expert"
                     fill
                     className="object-cover object-top"
                     priority

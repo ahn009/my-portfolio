@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     type: 'article',
     title: 'How AI is Transforming Web Development: A 2024 Guide',
     description: 'Explore how artificial intelligence is revolutionizing web development.',
-    url: 'https://muhammad-awais-portfolio.vercel.app/blog/ai-transforming-web-development',
+    url: 'https://byahsan.vercel.app//blog/ai-transforming-web-development',
     authors: ['Muhammad Ahsan'],
     publishedTime: '2024-01-05T00:00:00Z',
     tags: ['AI', 'Web Development', 'Machine Learning', 'Innovation'],
     images: [
       {
-        url: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+        url: 'https://byahsan.vercel.app//og-image.png',
         width: 1200,
         height: 630,
         alt: 'How AI is Transforming Web Development',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: 'https://muhammad-awais-portfolio.vercel.app/blog/ai-transforming-web-development',
+    canonical: 'https://byahsan.vercel.app//blog/ai-transforming-web-development',
   },
 };
 
@@ -42,7 +42,7 @@ const articleSchema = generateArticleSchema({
   description: 'Explore how artificial intelligence is revolutionizing web development.',
   author: 'Muhammad Ahsan',
   publishedDate: '2024-01-05',
-  url: 'https://muhammad-awais-portfolio.vercel.app/blog/ai-transforming-web-development',
+  url: 'https://byahsan.vercel.app//blog/ai-transforming-web-development',
 });
 
 export default function AIWebDevelopmentBlogPost() {
@@ -136,7 +136,7 @@ export default function AIWebDevelopmentBlogPost() {
             <div className="flex items-center gap-4">
               <div>
                 <h3 className="font-bold">Muhammad Ahsan</h3>
-                <p className="text-gray-400">Full Stack Developer & AI Integration Specialist</p>
+                <p className="text-gray-400">FrontEnd Devloper | Next.js Expert & AI Integration Specialist</p>
               </div>
             </div>
           </div>

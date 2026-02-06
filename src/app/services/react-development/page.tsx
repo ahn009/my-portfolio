@@ -17,17 +17,17 @@ export const metadata: Metadata = {
     type: 'website',
     title: 'React Development Services',
     description: 'Professional React development for interactive web applications.',
-    url: 'https://muhammad-awais-portfolio.vercel.app/services/react-development',
+    url: 'https://byahsan.vercel.app//services/react-development',
     images: [
       {
-        url: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+        url: 'https://byahsan.vercel.app//og-image.png',
         width: 1200,
         height: 630,
       },
     ],
   },
   alternates: {
-    canonical: 'https://muhammad-awais-portfolio.vercel.app/services/react-development',
+    canonical: 'https://byahsan.vercel.app//services/react-development',
   },
 };
 

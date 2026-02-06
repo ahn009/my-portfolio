@@ -3,16 +3,16 @@ export function generatePersonSchema() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Muhammad Ahsan",
-    url: "https://muhammad-awais-portfolio.vercel.app/",
-    image: "https://muhammad-awais-portfolio.vercel.app/images/profile.jpg",
+    url: "https://byahsan.vercel.app//",
+    image: "https://byahsan.vercel.app//images/profile.jpg",
     email: "awais8640107@gmail.com",
-    jobTitle: "Full Stack Developer",
+    jobTitle: "FrontEnd Devloper | Next.js Expert",
     description:
-      "Full Stack Developer specializing in Next.js, React, Node.js, and AI-powered solutions with 3+ years of production experience.",
+      "FrontEnd Devloper | Next.js Expert specializing in Next.js, React, Node.js, and AI-powered solutions with 1 years of production experience.",
     sameAs: [
       "https://linkedin.com/in/muhammad-awais-5b37742ba",
       "https://github.com/mhaawais",
-      "https://muhammad-awais-portfolio.vercel.app/",
+      "https://byahsan.vercel.app//",
     ],
     knowsAbout: [
       "Next.js",
@@ -37,15 +37,15 @@ export function generateWebsiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Muhammad Ahsan - Full Stack Developer",
-    url: "https://muhammad-awais-portfolio.vercel.app/",
+    name: "Muhammad Ahsan - FrontEnd Devloper | Next.js Expert",
+    url: "https://byahsan.vercel.app//",
     description:
-      "Portfolio and professional profile of Muhammad Ahsan, a Full Stack Developer specializing in Next.js, React, and modern web technologies.",
+      "Portfolio and professional profile of Muhammad Ahsan, a FrontEnd Devloper | Next.js Expert specializing in Next.js, React, and modern web technologies.",
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://muhammad-awais-portfolio.vercel.app//projects",
+        urlTemplate: "https://byahsan.vercel.app///projects",
       },
     },
   };

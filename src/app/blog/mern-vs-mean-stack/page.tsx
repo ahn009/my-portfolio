@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     type: 'article',
     title: 'MERN Stack vs MEAN Stack: Which One Should You Choose?',
     description: 'A comprehensive comparison of MERN and MEAN stacks.',
-    url: 'https://muhammad-awais-portfolio.vercel.app/blog/mern-vs-mean-stack',
+    url: 'https://byahsan.vercel.app//blog/mern-vs-mean-stack',
     authors: ['Muhammad Ahsan'],
     publishedTime: '2024-01-10T00:00:00Z',
     tags: ['MERN', 'MEAN', 'Full Stack', 'Development'],
     images: [
       {
-        url: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+        url: 'https://byahsan.vercel.app//og-image.png',
         width: 1200,
         height: 630,
         alt: 'MERN Stack vs MEAN Stack',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: 'https://muhammad-awais-portfolio.vercel.app/blog/mern-vs-mean-stack',
+    canonical: 'https://byahsan.vercel.app//blog/mern-vs-mean-stack',
   },
 };
 
@@ -42,7 +42,7 @@ const articleSchema = generateArticleSchema({
   description: 'A comprehensive comparison of MERN and MEAN stacks.',
   author: 'Muhammad Ahsan',
   publishedDate: '2024-01-10',
-  url: 'https://muhammad-awais-portfolio.vercel.app/blog/mern-vs-mean-stack',
+  url: 'https://byahsan.vercel.app//blog/mern-vs-mean-stack',
 });
 
 export default function MernVsMeanBlogPost() {
@@ -146,7 +146,7 @@ export default function MernVsMeanBlogPost() {
             <div className="flex items-center gap-4">
               <div>
                 <h3 className="font-bold">Muhammad Ahsan</h3>
-                <p className="text-gray-400">Full Stack Developer & MERN Stack Expert</p>
+                <p className="text-gray-400">FrontEnd Devloper | Next.js Expert & MERN Stack Expert</p>
               </div>
             </div>
           </div>

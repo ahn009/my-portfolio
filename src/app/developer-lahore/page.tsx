@@ -19,17 +19,17 @@ export const metadata: Metadata = {
     type: 'website',
     title: 'Web Developer in Lahore | Muhammad Ahsan',
     description: 'Professional web development services from Lahore, Pakistan',
-    url: 'https://muhammad-awais-portfolio.vercel.app/developer-lahore',
+    url: 'https://byahsan.vercel.app//developer-lahore',
     images: [
       {
-        url: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+        url: 'https://byahsan.vercel.app//og-image.png',
         width: 1200,
         height: 630,
       },
     ],
   },
   alternates: {
-    canonical: 'https://muhammad-awais-portfolio.vercel.app/developer-lahore',
+    canonical: 'https://byahsan.vercel.app//developer-lahore',
   },
 };
 
@@ -64,7 +64,7 @@ export default function DeveloperLahorePage() {
             <h3 className="text-2xl font-bold mb-4">Quick Facts</h3>
             <div className="space-y-3 text-sm">
               <p><span className="font-bold text-blue-400">Location:</span> Lahore, Pakistan</p>
-              <p><span className="font-bold text-blue-400">Experience:</span> 3+ years</p>
+              <p><span className="font-bold text-blue-400">Experience:</span> 1 years</p>
               <p><span className="font-bold text-blue-400">Clients:</span> Local & International</p>
               <p><span className="font-bold text-blue-400">Specialization:</span> Full Stack Development</p>
               <p><span className="font-bold text-blue-400">Availability:</span> Full-time & Freelance</p>

@@ -38,13 +38,13 @@ export function generateArticleSchema(article: {
     '@type': 'BlogPosting',
     headline: article.title,
     description: article.description,
-    image: article.imageUrl || 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+    image: article.imageUrl || 'https://byahsan.vercel.app//og-image.png',
     datePublished: article.publishedDate,
     dateModified: article.modifiedDate || article.publishedDate,
     author: {
       '@type': 'Person',
       name: article.author,
-      url: 'https://muhammad-awais-portfolio.vercel.app',
+      url: 'https://byahsan.vercel.app/',
     },
     url: article.url,
   };
@@ -91,10 +91,10 @@ export function generateOrganizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Muhammad Ahsan - Full Stack Developer',
-    url: 'https://muhammad-awais-portfolio.vercel.app',
-    logo: 'https://muhammad-awais-portfolio.vercel.app/logo.png',
-    description: 'Professional portfolio of Muhammad Ahsan, Full Stack Developer',
+    name: 'Muhammad Ahsan - FrontEnd Devloper | Next.js Expert',
+    url: 'https://byahsan.vercel.app/',
+    logo: 'https://byahsan.vercel.app//logo.png',
+    description: 'Professional portfolio of Muhammad Ahsan, FrontEnd Devloper | Next.js Expert',
     sameAs: [
       'https://linkedin.com/in/muhammad-awais-5b37742ba',
       'https://github.com/mhaawais',

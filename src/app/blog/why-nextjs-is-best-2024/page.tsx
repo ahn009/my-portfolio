@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     title: 'Why Next.js is the Best Choice for Web Development in 2024',
     description:
       'Discover why Next.js has become the go-to framework for building modern web applications.',
-    url: 'https://muhammad-awais-portfolio.vercel.app/blog/why-nextjs-is-best-2024',
+    url: 'https://byahsan.vercel.app//blog/why-nextjs-is-best-2024',
     authors: ['Muhammad Ahsan'],
     publishedTime: '2024-01-15T00:00:00Z',
     tags: ['Next.js', 'React', 'Web Development'],
     images: [
       {
-        url: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+        url: 'https://byahsan.vercel.app//og-image.png',
         width: 1200,
         height: 630,
         alt: 'Why Next.js is the Best Choice for Web Development in 2024',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: 'https://muhammad-awais-portfolio.vercel.app/blog/why-nextjs-is-best-2024',
+    canonical: 'https://byahsan.vercel.app//blog/why-nextjs-is-best-2024',
   },
 };
 
@@ -43,7 +43,7 @@ const articleSchema = generateArticleSchema({
     'Discover why Next.js has become the go-to framework for building modern web applications. Learn about its performance benefits, SEO optimization, and developer experience.',
   author: 'Muhammad Ahsan',
   publishedDate: '2024-01-15',
-  url: 'https://muhammad-awais-portfolio.vercel.app/blog/why-nextjs-is-best-2024',
+  url: 'https://byahsan.vercel.app//blog/why-nextjs-is-best-2024',
 });
 
 export default function NextJsBlogPost() {
@@ -130,7 +130,7 @@ export default function NextJsBlogPost() {
             <div className="flex items-center gap-4">
               <div>
                 <h3 className="font-bold">Muhammad Ahsan</h3>
-                <p className="text-gray-400">Full Stack Developer & Next.js Expert</p>
+                <p className="text-gray-400">FrontEnd Devloper | Next.js Expert & Next.js Expert</p>
               </div>
             </div>
           </div>

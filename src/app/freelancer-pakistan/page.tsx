@@ -19,17 +19,17 @@ export const metadata: Metadata = {
     type: 'website',
     title: 'Freelance Web Developer in Pakistan | Muhammad Ahsan',
     description: 'Professional freelance web development services from Pakistan',
-    url: 'https://muhammad-awais-portfolio.vercel.app/freelancer-pakistan',
+    url: 'https://byahsan.vercel.app//freelancer-pakistan',
     images: [
       {
-        url: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+        url: 'https://byahsan.vercel.app//og-image.png',
         width: 1200,
         height: 630,
       },
     ],
   },
   alternates: {
-    canonical: 'https://muhammad-awais-portfolio.vercel.app/freelancer-pakistan',
+    canonical: 'https://byahsan.vercel.app//freelancer-pakistan',
   },
 };
 

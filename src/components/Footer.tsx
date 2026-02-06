@@ -70,7 +70,7 @@ export default function Footer() {
                 <span className="text-4xl font-bold text-gradient">MA</span>
               </Link>
               <p className="text-[#a3a3a3] max-w-md text-sm md:text-base">
-                Full Stack Developer specializing in building scalable web applications, business platforms, and production-ready solutions.
+                FrontEnd Devloper | Next.js Expert specializing in building scalable web applications, business platforms, and production-ready solutions.
               </p>
 
               {/* Social */}

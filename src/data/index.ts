@@ -54,12 +54,12 @@ export const heroData = {
 export const aboutData = {
   title: "About Me",
   paragraphs: [
-    "I'm a Full Stack Developer with 3+ years of experience building production-grade web applications for startups and enterprises. I specialize in Next.js, React, and Node.js, delivering scalable solutions that solve real business problems.",
+    "I'm a FrontEnd Devloper | Next.js Expert with 1 years of experience building production-grade web applications for startups and enterprises. I specialize in Next.js, React, and Node.js, delivering scalable solutions that solve real business problems.",
     "I focus on clean architecture, performance optimization, and AI integration. My projects have improved application performance by up to 130%, reduced deployment times, and scaled to handle thousands of concurrent users. I combine deep technical expertise with a user-first approach.",
     "I'm passionate about keeping current with modern web technologies, contributing to open-source communities, and mentoring other developers. I thrive in collaborative environments and believe in shipping quality code that makes an impact.",
   ],
   highlights: [
-    "3+ years building production applications",
+    "1 years building production applications",
     "Full Stack: Next.js, React, Node.js, PostgreSQL",
     "Performance optimization & AI integration",
     "130% average performance improvement",
@@ -70,7 +70,7 @@ export const aboutData = {
 export const timelineData = [
   {
     year: "2025",
-    title: "Full Stack Developer",
+    title: "FrontEnd Devloper | Next.js Expert",
     subtitle: "S-Tech Innovative",
     description: "Leading full-stack development projects and building scalable applications.",
   },
@@ -306,7 +306,7 @@ export interface Experience {
 export const experienceData: Experience[] = [
   {
     company: "S-Tech Innovative",
-    role: "Full Stack Developer",
+    role: "FrontEnd Devloper | Next.js Expert",
     duration: "April 2025 – Present",
     location: "On-site",
     current: true,
@@ -378,7 +378,7 @@ export const contactData = {
     },
     {
       name: "Portfolio",
-      url: "https://muhammad-awais-portfolio.vercel.app/#/",
+      url: "https://byahsan.vercel.app//#/",
       icon: FaGlobe,
     },
   ],

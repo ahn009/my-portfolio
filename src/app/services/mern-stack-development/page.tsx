@@ -18,17 +18,17 @@ export const metadata: Metadata = {
     type: 'website',
     title: 'MERN Stack Development Services',
     description: 'Professional MERN Stack development for complete web solutions.',
-    url: 'https://muhammad-awais-portfolio.vercel.app/services/mern-stack-development',
+    url: 'https://byahsan.vercel.app//services/mern-stack-development',
     images: [
       {
-        url: 'https://muhammad-awais-portfolio.vercel.app/og-image.png',
+        url: 'https://byahsan.vercel.app//og-image.png',
         width: 1200,
         height: 630,
       },
     ],
   },
   alternates: {
-    canonical: 'https://muhammad-awais-portfolio.vercel.app/services/mern-stack-development',
+    canonical: 'https://byahsan.vercel.app//services/mern-stack-development',
   },
 };
 
