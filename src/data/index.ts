@@ -222,7 +222,30 @@ export const projectsData: Project[] = [
     image: "/images/project-arocean.png",
   },
 
-  {
+{
+  title: "Ahsan GPT",
+  description:
+    "AI-powered chat application leveraging Google Gemini models, built with secure Firebase backend and modern frontend architecture. Provides responsive UI, smooth animations, and production-ready authentication.",
+  features: [
+    "AI chat using Google Gemini 2.5",
+    "Secure backend API calls with Firebase Functions",
+    "Authentication with Google Sign-In & Email/Password",
+    "Responsive, modern UI with Tailwind CSS and Framer Motion",
+    "Privacy and Terms pages for production readiness",
+    "Error handling and API key protection",
+  ],
+  techStack: [
+    { name: "React", icon: SiReact },
+    { name: "TypeScript", icon: SiTypescript },
+    { name: "Tailwind CSS", icon: SiTailwindcss },
+    { name: "Firebase", icon: SiFirebase },
+    { name: "Framer Motion", icon: SiFramer },
+  ],
+  github: "https://github.com/ahn009/AhsanGPT",
+  liveDemo: "https://ahsangpt.vercel.app",
+  image: "/public/AhsanGPT.png",
+},
+ {
     title: "Elite Books Writers",
     description:
       "SEO-focused business website for a professional writing agency. Designed to improve search visiability, conversions, and user trust with a clean layout and optimized content structure.",
