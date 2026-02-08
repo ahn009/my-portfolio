@@ -243,7 +243,7 @@ export const projectsData: Project[] = [
   ],
   github: "https://github.com/ahn009/AhsanGPT",
   liveDemo: "https://ahsangpt.vercel.app",
-  image: "/public/AhsanGPT.png",
+  image: "/images/project-ahsangpt.png",
 },
  {
     title: "Elite Books Writers",
